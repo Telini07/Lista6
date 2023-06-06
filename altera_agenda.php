@@ -15,7 +15,7 @@
 </head>
 <body>
 <h1>Cadastro de Agenda</h1>
-    <form action="altera_agenda_exe.php" method="post">
+    <form action="altera_agenda_exe.php" method="post" enctype="multipart/form-data">
     <input type="hidden" name="id_agenda" value="<?php echo $row['id_agenda']?>">
         <div>
             <label for="nome">Nome: </label>
@@ -52,6 +52,9 @@
         <div>
             <label for="email">E-mail: </label>
             <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <input type="file" name="foto" id="foto" accept="image/*">
         </div>
         <input type="submit" value="Salvar">
     </form>

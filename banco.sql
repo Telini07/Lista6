@@ -1,7 +1,6 @@
 CREATE DATABASE lista6;
 USE lista6;
 
-
 create table agenda (
 	id_agenda int not null auto_increment,
 	nome varchar(50) not null,
@@ -13,8 +12,9 @@ create table agenda (
 	fone varchar(15) not null,
 	cel varchar(15) not null,
 	email varchar(70) not null,
+    foto  varchar(100) null,
 	dt_cadastro date not null,
 	PRIMARY KEY (id_agenda)
 )
 
-SELECT * FROM agenda;
+SELECT * FROM agenda

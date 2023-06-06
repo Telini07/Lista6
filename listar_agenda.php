@@ -18,6 +18,7 @@
     <table border="1" width="500">
         <tr>
             <th>ID</th>
+            <th>Foto</th>
             <th>Nome</th>
             <th>Apelido</th>
             <th>Endereco</th>
@@ -36,6 +37,11 @@
             do{
             echo "<tr>";
             echo "<td>".$row['id_agenda']."</td>";
+            if($row['foto'] == ""){
+                echo "<td></td>";
+            }else {
+                echo "<td><img src='". $row['foto']. "' width='80' height='100'/></td>";
+            }
             echo "<td>".$row['nome']."</td>";
             echo "<td>".$row['apelido']."</td>";
             echo "<td>".$row['endereco']."</td>";
