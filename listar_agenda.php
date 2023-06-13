@@ -4,9 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <title>Listar</title>
 </head>
 <body>
+<div class="row justify-content-center">
+        <ul class="nav nav-pills nav-fill">
+          <li class="nav-item col-12 col-md-auto">
+            <a class="nav-link" href="index.php">Página Inicial</a>
+          </li>
+          <li class="nav-item col-12 col-md-auto">
+            <a class="nav-link" href="cadastro_agenda.html">Cadastro</a>
+          </li>
+          <li class="nav-item col-12 col-md-auto">
+            <a class="nav-link disabled" href="#">Listagem</a>
+          </li>
+        </ul>
+            </div>
 <?php
         include('conexao.php');
         $sql = "SELECT * FROM agenda";
