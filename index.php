@@ -8,18 +8,20 @@
     <title>Página Inicial</title>
 </head>
 <body>
+
+    
     <div class="row justify-content-center">
-<ul class="nav nav-pills nav-fill">
-  <li class="nav-item col-12 col-md-auto">
-    <a class="nav-link disabled" href="#">Página Inicial</a>
-  </li>
-  <li class="nav-item col-12 col-md-auto">
-    <a class="nav-link" href="cadastro_agenda.html">Cadastro</a>
-  </li>
-  <li class="nav-item col-12 col-md-auto">
-    <a class="nav-link" href="listar_agenda.php">Listagem</a>
-  </li>
-</ul>
+    <ul class="nav nav-pills nav-fill">
+        <li class="nav-item col-12 col-md-auto">
+            <a class="nav-link disabled" href="#">Página Inicial</a>
+        </li>
+        <li class="nav-item col-12 col-md-auto">
+            <a class="nav-link" href="cadastro_agenda.html">Cadastro</a>
+        </li>
+        <li class="nav-item col-12 col-md-auto">
+            <a class="nav-link" href="listar_agenda.php">Listagem</a>
+        </li>
+    </ul>
     </div>
 
     <h1 style="text-align: center;">Página Inicial</h1>
